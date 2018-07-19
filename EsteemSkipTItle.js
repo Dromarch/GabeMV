@@ -10,6 +10,11 @@
 *
 */
 
+//-----------------------------------------------------------------------------
+// Scene_Title
+//
+// The scene class of the title screen.
+
     Scene_Title.prototype.start = function() {
         DataManager.setupNewGame();
         SceneManager.goto(Scene_Map);
